@@ -1,5 +1,9 @@
 import React from 'react';
 
-export default function Button(): React.ReactElement {
-  return <input type="submit" value="submit" />;
+type ButtonProps = {
+  label: string;
+};
+
+export default function Button(props: ButtonProps): React.ReactElement {
+  return <input type="submit" value={props.label} />;
 }

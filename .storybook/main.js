@@ -16,5 +16,5 @@ module.exports = {
     return config;
   },
   stories: ['../stories/**/*.stories.tsx'],
-  addons: ['@storybook/addon-actions', '@storybook/addon-links'],
+  addons: ['@storybook/addon-knobs/register', '@storybook/addon-actions/register', '@storybook/addon-links/register'],
 };
