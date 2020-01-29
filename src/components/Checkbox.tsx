@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
+//TODO : Background behind the checkbox
 const CheckboxComponent = styled.input.attrs({ type: 'checkbox' })``;
 const LabelComponent = styled.span``;
 const Container = styled.label`
